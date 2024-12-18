@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<personas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="persona_xsd.xsd">
+    <persona aficions="programacio" edat="39">
+        <nombre>Gerard</nombre>
+        <apellido>Fortea</apellido>
+        <edad>36</edad>
+        <email>gerard.fortea@example.com</email>
+        <germans>
+            <persona aficions="pastissos" edat="44">
+                <nombre>Gemma</nombre>
+                <apellido>Fortea</apellido>
+                <edad>44</edad>
+                <email>gemma.fortea@gmail.com</email>
+            </persona>
+        </germans>
+    </persona>
+    <persona aficions="circ" edat="36">
+        <nombre>Eva</nombre>
+        <apellido>Martínez</apellido>
+        <edad>32</edad>
+        <email>eva.martinez@example.com</email>
+        <germans>
+            <persona aficions="claque" edat="35">
+                <nombre>Pau</nombre>
+                <apellido>Camps</apellido>
+                <edad>35</edad>
+                <email>pau.camps@gmail.com</email>
+            </persona>
+        </germans>
+    </persona>
+</personas>
