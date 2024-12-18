@@ -9,3 +9,5 @@ Podemos usar xmllint para validar nuestros ficheros DTD.
 
 
 ## Validación XSD
+
++ xmllint --schema persona_xsd.xsd persona_xsd.xml
