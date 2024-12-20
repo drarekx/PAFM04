@@ -1,5 +1,5 @@
 <!ELEMENT personas (persona+)>
-<!ELEMENT persona (nombre, apellido, edad, email, germans*)>
+<!ELEMENT persona (nombre, apellido, edad, email, germans*, professio?)>
 <!ATTLIST persona aficions (programacio|circ|pastissos|claque) #IMPLIED>
 <!ATTLIST persona edat CDATA #REQUIRED>
 <!ELEMENT nombre (#PCDATA)>
@@ -7,3 +7,8 @@
 <!ELEMENT edad (#PCDATA)>
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT germans (persona*)>
+<!ELEMENT professio (lloc?, carrec?)>
+<!ATTLIST professio clase (programador|artista) #IMPLIED>
+<!ATTLIST professio actiu (si|no) #REQUIRED>
+<!ELEMENT lloc (#PCDATA)>
+<!ELEMENT carrec (#PCDATA)>

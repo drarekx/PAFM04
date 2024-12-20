@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<noticias>
+    <articulo>
+        <id>1</id>
+        <titulo>El cambio climático afecta al planeta</titulo>
+        <autor>Gerard Fortea</autor>
+        <fecha>2024-12-19</fecha>
+        <categoria>Medio Ambiente</categoria>
+        <numero_lineas>15</numero_lineas>
+        <numero_fotos>3</numero_fotos>
+        <contenido>El cambio climático está acelerando el deshielo en los polos.</contenido>
+    </articulo>
+    <articulo>
+        <id>2</id>
+        <titulo>La tecnología 5G avanza en Europa</titulo>
+        <autor>Eva Martínez</autor>
+        <fecha>2024-12-18</fecha>
+        <categoria>Tecnología</categoria>
+        <numero_lineas>12</numero_lineas>
+        <numero_fotos>2</numero_fotos>
+        <contenido>La implementación del 5G continúa expandiéndose en el continente europeo.</contenido>
+    </articulo>
+    <articulo>
+        <id>3</id>
+        <titulo>Nuevo descubrimiento en Marte</titulo>
+        <autor>Paul Sánchez</autor>
+        <fecha>2024-12-17</fecha>
+        <categoria>Ciencia</categoria>
+        <numero_lineas>20</numero_lineas>
+        <numero_fotos>4</numero_fotos>
+        <contenido>Se han encontrado indicios de agua líquida en el planeta rojo.</contenido>
+    </articulo>
+</noticias>

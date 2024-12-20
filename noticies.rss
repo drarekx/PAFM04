@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+    <channel>
+        <title>Noticies</title>
+        <link>http://www.noticias.com</link>
+        <description>Las mejores noticias</description>
+        <lastBuildDate>Thu, 19 Dec 2024 16:40:00+0100</lastBuildDate>
+        <webMaster>gerard@mrdrarek.es (Gerard Fortea)</webMaster>
+        <category>Varies</category>
+        <item>
+            <title>Nom genèric</title>
+            <link>http://www.noticias.com/generic</link>
+            <guid isPermaLink="true">http://www.noticias.com/generic</guid>
+            <description>descripcio</description>
+            <author>Gerard Foortea</author>
+            <pubDate>Wen, 18 Dec 2024 17:00:00+0100</pubDate>
+        </item>
+    </channel>
+</rss>

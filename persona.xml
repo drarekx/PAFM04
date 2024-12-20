@@ -14,6 +14,8 @@
                 <email>gemma.fortea@gmail.com</email>
             </persona>
         </germans>
+         <professio clase="programador" actiu="no">
+        </professio>
     </persona>
     <persona aficions="circ" edat="36">
         <nombre>Eva</nombre>
@@ -28,5 +30,10 @@
                 <email>pau.camps@gmail.com</email>
             </persona>
         </germans>
+        
+        <professio clase="artista" actiu="si">
+            <lloc>Figueres</lloc>
+            <carrec>Profesora</carrec>
+        </professio>
     </persona>
 </personas>
