@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE recetario SYSTEM "recetario.dtd">
+<recetario>
+    <receta id="1" tipo="principal" porciones="4">
+        <nombre>Espaguetis Carbonara</nombre>
+        <ingredientes>
+            <ingrediente cantidad="200g">Espaguetis</ingrediente>
+            <ingrediente cantidad="100g">Panceta</ingrediente>
+            <ingrediente cantidad="2">Huevos</ingrediente>
+            <ingrediente cantidad="50g">Queso parmesano</ingrediente>
+            <ingrediente cantidad="al gusto">Pimienta</ingrediente>
+        </ingredientes>
+        <instrucciones pasos="4">
+            Cocer los espaguetis según las indicaciones del paquete. 
+            Freír la panceta hasta que esté dorada. 
+            Batir los huevos y mezclarlos con el queso rallado. 
+            Añadir la mezcla a los espaguetis calientes con la panceta.
+        </instrucciones>
+        <tiempoPreparacion>20 minutos</tiempoPreparacion>
+        <dificultad>Media</dificultad>
+    </receta>
+    <receta id="2" tipo="ensalada" porciones="2">
+        <nombre>Ensalada César</nombre>
+        <ingredientes>
+            <ingrediente cantidad="1">Lechuga romana</ingrediente>
+            <ingrediente cantidad="150g">Pollo asado</ingrediente>
+            <ingrediente cantidad="50g">Crutones</ingrediente>
+            <ingrediente cantidad="30g">Queso parmesano</ingrediente>
+            <ingrediente cantidad="50ml">Aderezo César</ingrediente>
+        </ingredientes>
+        <instrucciones pasos="3">
+            Cortar la lechuga en trozos. 
+            Mezclar con el pollo, los crutones y el queso. 
+            Añadir el aderezo justo antes de servir.
+        </instrucciones>
+        <tiempoPreparacion>15 minutos</tiempoPreparacion>
+        <dificultad>Fácil</dificultad>
+    </receta>
+</recetario>

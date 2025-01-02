@@ -1,0 +1,13 @@
+<!ELEMENT recetario (receta+)>
+<!ELEMENT receta (nombre, ingredientes*, instrucciones, tiempoPreparacion, dificultad)>
+<!ATTLIST receta id CDATA #REQUIRED>
+<!ATTLIST receta tipo (principal|ensalada) #IMPLIED>
+<!ATTLIST receta porciones CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA) >
+<!ELEMENT ingredientes (ingrediente+)>
+<!ELEMENT instrucciones (#PCDATA)>
+<!ATTLIST instrucciones pasos CDATA #IMPLIED>
+<!ELEMENT tiempoPreparacion (#PCDATA)>
+<!ELEMENT dificultad (#PCDATA)>
+<!ELEMENT ingrediente (#PCDATA)>
+<!ATTLIST ingrediente cantidad CDATA #REQUIRED>
